@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Trophḗ Haven</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+      <a class="navbar-brand" href="#">
+        Trophḗ Haven
+      </a>
+
+      <input type="checkbox" id="menu-bar">
+      <label for="menu-bar">Menu</label>
+
+      <nav class="navbar">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#region">Region + </a>
+                  <ul>
+                      <li><a href="Asian/Asian.html">Asian</a></li>
+                      <li><a href="European/European.html">European</a></li>
+                      <li><a href="American/American.html">American</a>
+                      </li>
+                  </ul>
+              </li>
+              <li><a href="#footer">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" style="height: 700px;">
+        <div class="carousel-item active" style="filter: brightness(85%);">
+          <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="filter: brightness(85%);">
+          <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="filter: brightness(85%);">
+          <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+        <h1
+            style="color: white; font-size: 118px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+            WELCOME</h1>
+    </div>
+    </div>
+
+      <!-- Choose Below -->
+      <p class="choose" id="region">CHOOSE BELOW</p>
+
+      <div class="mapcontainer">
+        <img class="asmap" src="img/asian.png" alt="">
+        <img class="eumap" src="img/european.png" alt="">
+        <img class="ammap" src="img/amrican.png" class="amricanmap" alt="">
+      </div>
+      <div>
+
+      </div>
+
+      <div class="regbtn">
+          <a href="Asian/Asian.html"><button class="asian">Asian</button></a>
+          <a href="European/European.html"><button class="european">European</button></a>
+          <a href="American/American.html"><button class="american">American</button></a>
+      </div>
+            
+      <!-- Footer -->
+      <div class="footer" id="footer">
+        <div class="contactCard">
+            <p class="contactUs">For More Information, Please Contact:</p>
+            <p class="contactText">
+              trophehaven@gmail.com<br>
+              +62 882 0161 29508<br>
+              © 2023 - Trophḗ Haven
+              </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
